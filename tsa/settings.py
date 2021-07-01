@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'n)!5uw#9(a1#ft_s2gvzqwkxk5^aukfb&zf+6gqnf1*x!0bs#p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 MODELS = os.path.join(BASE_DIR,'tweet\models')
 # Application definition
