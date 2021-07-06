@@ -41,7 +41,7 @@ def home(request):
 
 def predict(request):
     if request.method == 'POST':
-        data = pickle.load(open('models\models.p', 'rb'))
+        data = pickle.load(open('classifier\models.p', 'rb'))
         
         model = data['model']
         vectorizer = data['vectorizer']
