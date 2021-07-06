@@ -77,6 +77,20 @@
               background-color: #f4f7f8;
               color: rgb(3, 0, 0);
             }
+            @media
+            only screen and (-webkit-min-device-pixel-ratio: 1.5),
+            only screen and (-o-min-device-pixel-ratio: 3/2),
+            only screen and (min--moz-device-pixel-ratio: 1.5),
+            only screen and (min-device-pixel-ratio: 1.5){
+            
+              html,
+              body{
+                width:100%;
+                overflow-x:hidden;
+              }
+            
+            }
+            
             
         </style>
     </head>
@@ -87,7 +101,7 @@
 
     <div class="row" style="margin-top: 100px;">
         <div class="title-text col-lg-6 col-md-6 col-sm-12">
-            <h2 style="font-size: 48px;">Sentiment Analysis</h2>
+          <h2 style="font-size: 43px;">Sentiment Analysis</h2>
             <h3 style="padding-top: 2%;padding-bottom:2%"> Machine Learning Course Project </h3>
             <div class="dropdown">
                 <button class="btn  dropdown-toggle btn-lg btn-outline-dark upload_button
@@ -145,13 +159,21 @@
     
 </div>
 
-<section id="contact-section" style="width: 100%;margin-top:13px">
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+
+
+<section id="contact-section" class=""style="width: 100%;margin-top:13px">
     <div class="contact " >
       <h3 class="contacttext contactus" ><strong>Machine Learning Course Project</strong></h3>
       <p class="contacttext">IIT Jodhpur</p>
       <a href="https://github.com/Hemanth-Gattu"><i class="fa fa-github" style="font-size:36px; color:rgb(248, 247, 247)"></i></a>
 
 </section>
+
+</footer>
+
+<!-- Footer -->
 
 
     </body>
