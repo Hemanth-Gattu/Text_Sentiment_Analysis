@@ -40,7 +40,7 @@ $ django-admin startproject projectname
 
 $ cd ../project name
 
-$ python manage.py startapp Appname
+$ python manage.py startapp appname
 
 $ python manage.py makemigrations
 
