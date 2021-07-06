@@ -5,6 +5,7 @@ from django.http import JsonResponse, request, response
 from rest_framework.views import APIView
 from django.http import HttpResponse
 import pickle
+import joblib
 # Create your views here.
 
 
@@ -41,7 +42,8 @@ def home(request):
 
 def predict(request):
     if request.method == 'POST':
-        data = pickle.load(open('classifier\models.p', 'rb'))
+       # data = pickle.load(open('classifier\models.p', 'rb'))
+        data = joblib.load('final_model.sav')
         
         model = data['model']
         vectorizer = data['vectorizer']
