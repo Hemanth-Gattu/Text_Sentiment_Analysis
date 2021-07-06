@@ -51,6 +51,8 @@
                 align-items: stretch;
                 width: 45%;
                 height: 70%;
+                border: 2px solid black;
+                border-radius: 4px;
             }
             .btn-secondary {
                 color: #fff;
@@ -101,7 +103,8 @@
 
     <div class="row" style="margin-top: 100px;">
         <div class="title-text col-lg-6 col-md-6 col-sm-12">
-          <h2 style="font-size: 43px;">Sentiment Analysis</h2>
+         <strong> <a class="navbar-brand" href="/"> <h2 style="font-size: 43px; color:black">Sentiment Analysis</h2></a></strong>
+
             <h3 style="padding-top: 2%;padding-bottom:2%"> Machine Learning Course Project </h3>
             <div class="dropdown">
                 <button class="btn  dropdown-toggle btn-lg btn-outline-dark upload_button
@@ -132,13 +135,19 @@
     {% csrf_token %}
 <center>
       <div class="input-group input-group-lg">
+        <!--
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroup-sizing-lg">Enter Text</span>
         </div>
-        <input type="text" name="search" class="form-control" aria-label="Large" >
+        -->
+        <input type="text" name="search" class="form-control" aria-label="Large"  placeholder="Predict your text here..">
+        
+  
+       
       </div>
       <div style="padding-top: 3%; padding-bottom:2%">
         <button class="btn btn-secondary btn-lg upload_button" > Predict </button>
+
 
       </div>
 </center>
