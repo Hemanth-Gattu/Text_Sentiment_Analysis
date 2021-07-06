@@ -5,7 +5,7 @@ _Course Instructor: Dr. Richa Singh_
 
 View website here: https://sentiment-analysis--ml.herokuapp.com
 
-[![Report](https://img.shields.io/badge/Report-Pdf-blue)](https://wordpress.org/plugins/dirtysuds-embed-pdf/)
+[![Report](https://img.shields.io/badge/Report-Pdf-blue)](https://sentiment-analysis--ml.herokuapp.com/static/Project_Report.pdf)
 [![ColabFile](https://img.shields.io/badge/ColabFile-.ipynb-orange)](https://colab.research.google.com/drive/1QKUP7_YbYuFVHyzkoP5gLXBs1WFucWIu)
 [![Dataset](https://img.shields.io/badge/Dataset-.csv-yellowgreen)](https://drive.google.com/file/d/1VVUGLlh_DWzhibH65Lg1PieTAszLn50n/view)
 
