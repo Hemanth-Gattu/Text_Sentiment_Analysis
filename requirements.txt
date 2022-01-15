@@ -1,7 +1,7 @@
 asgiref==3.3.1
 attrs==21.2.0
 cycler==0.10.0
-Django==3.1.13
+Django==3.1.14
 django-crispy-forms==1.11.2
 djangorestframework==3.12.4
 ffi-navigator==0.5.2
