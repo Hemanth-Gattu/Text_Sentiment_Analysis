@@ -50,7 +50,7 @@ $ python manage.py runserver
 
 ```
 
-## Contributors
+## Contributors:
 
 | Name                                            | Roll Number | Year      | Department             |
 | ----------------------------------------------- | ----------- | --------- | ---------------------- |
